@@ -12,6 +12,10 @@
 
     <!-- Boostrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- akhir AOS -->
     <!-- My css -->
     <link rel="stylesheet" href="style.css">
 
@@ -54,8 +58,9 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-        <img src="img/aku.JPG" alt="Rahmat Abdul Muplih" width="200" class="rounded-circle img-thumbnail">
-        <h1 class="display-7 text-white">Rahmat Abdul Muplih</h1>
+        <img src="img/aku.JPG" alt="Rahmat Abdul Muplih" width="200" class="rounded-circle img-thumbnail"
+            data-aos="zoom-in" data-aos-duration="1000">
+        <h1 class=" display-7 text-white">Rahmat Abdul Muplih</h1>
         <p class="lead text-white">Graphic Designer</p>
 
         <!-- lengkungan 1 -->
@@ -68,7 +73,7 @@
     </section>
     <!-- Akhir Jumbotron -->
     <section id="about">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="1500">
             <div class="row text-center mb-3">
                 <div class="col">
                     <h2>About Me</h2>
@@ -97,13 +102,13 @@
     <section id="projects">
         <div class="container">
             <div class="row text-center mb-4 text-white">
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="1000">
                     <h2>Logo Design</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1500">
                         <img src="img/projects/1.jpg" class="card-img-top" alt="project1">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -112,7 +117,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1500">
                         <img src="img/projects/4.png" class="card-img-top" alt="project2">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -121,7 +126,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1500">
                         <img src="img/projects/6.png" class="card-img-top" alt="project3">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -130,12 +135,12 @@
                     </div>
                 </div>
                 <div class="judul2 text-center">
-                    <div class="col mb-4 text-white">
+                    <div class="col mb-4 text-white" data-aos="fade-up" data-aos-duration="1500">
                         <h2>Mockup Design</h2>
                     </div>
                 </div>
                 <div class="col-md-4  mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1500">
                         <img src="img/projects/2.png" class="card-img-top" alt="project4">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -144,7 +149,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1500">
                         <img src="img/projects/3.png" class="card-img-top" alt="project5">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -153,7 +158,7 @@
                     </div>
                 </div>
                 <div class="col-md-4  mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1500">
                         <img src="img/projects/5.jpg" class="card-img-top" alt="project6">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -172,16 +177,74 @@
     </section>
     <!-- akhir project -->
 
+    <!-- Galeri -->
+    <!-- <section id="gallery">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Gallery</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col md-3">
+                    <a href="#">
+                        <img src="img/gallery/1.jpeg" alt="gambar1">
+                    </a>
+                </div>
+                <div class="col md-3">
+                    <a href="#">
+                        <img src="img/gallery/2.jpeg" alt="gambar2">
+                    </a>
+                </div>
+                <div class="col md-3">
+                    <a href="#">
+                        <img src="img/gallery/2.jpeg" alt="gambar2">
+                    </a>
+                </div>
+                <div class="col md-3">
+                    <a href="#">
+                        <img src="img/gallery/3.jpeg" alt="gambar3">
+                    </a>
+                </div>
+                <div class="col md-3">
+                    <a href="#">
+                        <img src="img/gallery/4.jpeg" alt="gambar4">
+                    </a>
+                </div>
+                <div class="col md-3">
+                    <a href="#">
+                        <img src="img/gallery/5.jpeg" alt="gambar5">
+                    </a>
+                </div>
+                <div class="col md-3">
+                    <a href="#">
+                        <img src="img/gallery/6.jpeg" alt="gambar6">
+                    </a>
+                </div>
+                <div class="col md-3">
+                    <a href="#">
+                        <img src="img/gallery/7.jpeg" alt="gambar7">
+                    </a>
+                </div>
+                <div class="col md-3">
+                    <a href="#">
+                        <img src="img/gallery/8.jpeg" alt="gambar8">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Akhir galery -->
 
     <!-- Awal Contact -->
     <section id="contact">
         <div class="container">
             <div class="row text-center mb-3">
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="1500">
                     <h2>Contact Me</h2>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" data-aos="zoom-in" data-aos-duration="1500">
                 <div class="col-md-6">
                     <!-- alert -->
                     <div class="alert alert-warning alert-dismissible fade show d-none my-alert" role="alert">
@@ -234,6 +297,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
     <script>
         const scriptURL =
             'https://script.google.com/macros/s/AKfycbyJ9q7qoy3Jvknagg5Q6G9FJFENBiBdEfKH3yRNy1wMsJZb4cvcF1Qd5FCwTaHYmQnJaA/exec'
